@@ -1,0 +1,20 @@
+{
+    "gpu": "2",
+    "seed": 123,
+    "dataset": "knee",
+    "image_shape": [128,128,2],
+    "max_acquisition": 32,
+    "center_acquisition": 16,
+    "batch_size": 100,
+    "model": "unet2d",
+    "dim": 16,
+    "layers": 4,
+    "epochs": 50,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "decay_steps": 10000,
+    "decay_rate": 0.5,
+    "clip_gradient": 1,
+    "exp_dir": "./exp/knee/unet1",
+    "summ_freq": 100
+}

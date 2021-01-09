@@ -1,0 +1,19 @@
+{
+    "gpu": "3",
+    "seed": 123,
+    "dataset": "kmnist",
+    "image_shape": [32,32,2],
+    "batch_size": 256,
+    "model": "unet2d",
+    "dim": 32,
+    "layers": 4,
+    "epochs": 500,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "decay_steps": 10000,
+    "decay_rate": 0.5,
+    "clip_gradient": 1,
+    "exp_dir": "./exp/kmnist/unet",
+    "summ_freq": 100,
+    "num_samples": 10
+}
